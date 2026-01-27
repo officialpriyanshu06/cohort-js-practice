@@ -1,4 +1,6 @@
-// Qn4:- print the word 'yes' 5 Times 
+// Qn4:- print the word 'yes' 5 Times. 
+
+// learned about global variables/scope and strict mode
 
 "use strict";
 
