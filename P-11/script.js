@@ -16,3 +16,16 @@ while(pass !== sahipass){
 if(pass === sahipass){
     console.log("access granted");
 }
+
+// another apprach
+
+// let count = 0;
+// let sahipass = "gohanbhai";
+// let pass = prompt("enter the passwod");
+
+// count++
+
+// while(count < 3 && pass !== sahipass){
+//     pass = prompt("enter the passwod");
+//     count++
+// }
