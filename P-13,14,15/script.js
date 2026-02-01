@@ -8,3 +8,13 @@ for(let i = 1; i < 51; i++){
 
 
 
+// Sum of all odd numbers from 1 to 30. Add only odd numbers. Print final sum.
+
+let sum = 0;
+
+for(let i = 1; i < 31; i++){
+    if(i%2 == 1){
+        sum += i;
+    }
+}
+console.log(`sum of all odd numbers from 1 to 30 is ${sum}`)
