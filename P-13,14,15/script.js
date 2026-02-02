@@ -18,3 +18,14 @@ for(let i = 1; i < 31; i++){
     }
 }
 console.log(`sum of all odd numbers from 1 to 30 is ${sum}`)
+
+
+// Keep asking number until user enters an even number. Use while loop. Stop only if input is even.
+
+let number = +prompt("enter a number ");
+
+while(number%2 !== 0){
+    number = +prompt("enter a number ");
+}
+
+console.log(`${number} is a even number`);
