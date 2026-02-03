@@ -10,5 +10,12 @@ for(let i = 1; i <= 20; i++){
 }
 
 
+// Ask user 5 numbers. Count how many are positive. Use loop + condition + counter.
 
+let counter = 0;
+for(let i = 1; i < 6; i++){
+    let num = +prompt("enter number");
+    if(num >= 0) counter++;
+}
 
+console.log(`total positive numbers are ${counter}`);
