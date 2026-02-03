@@ -39,3 +39,6 @@ for(start; start <= end; start++){
     console.log(start);
 }
 
+let x = 50;
+x /= 5 - 2;
+console.log(x);
